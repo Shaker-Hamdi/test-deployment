@@ -1,0 +1,8 @@
+{
+  "short_name": "Pelcro React Elements",
+  "name": "Pelcro React Elements",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,77 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "google",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier",
+    "jsdoc",
+    "import"
+  ],
+  "parser": "@babel/eslint-parser",
+  "rules": {
+    "prettier/prettier": [
+      "warn"
+    ],
+    "jsdoc/valid-types": "warn",
+    "jsdoc/require-jsdoc": "off",
+    "require-jsdoc": "off",
+    "valid-jsdoc": "warn",
+    "guard-for-in": "off",
+    "camelcase": "warn",
+    "no-extend-native": "off",
+    "no-inner-declarations": "warn",
+    "no-invalid-this": "off",
+    "react/prop-types": "off",
+    "prefer-destructuring": "warn",
+    "react/no-unescaped-entities": "warn",
+    "new-cap": "off",
+    "no-unused-vars": "warn",
+    "prefer-const": "warn",
+    "no-duplicate-imports": "warn",
+    "import/no-commonjs": "error",
+    "import/first": "error",
+    "import/newline-after-import": "warn",
+    "import/no-unused-modules": [
+      "error",
+      {
+        "unusedExports": false,
+        "missingExports": true
+      }
+    ]
+  },
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es6": true
+  },
+  "globals": {
+    "Pelcro": true,
+    "require": true,
+    "exports": true,
+    "process": true
+  },
+  "settings": {
+    "react": {
+      "pragma": "React", // Pragma to use, default to "React"
+      "version": "detect" // React version. "detect" automatically picks the version you have installed.
+      // You can also use `16.0`, `16.3`, etc, if you want to override the detected value.
+      // default to latest and warns if missing
+      // It will default to "detect" in the future
+    },
+    "propWrapperFunctions": [
+      // The names of any function used to wrap propTypes, e.g. `forbidExtraProps`. If this isn't set, any propTypes wrapped in a function will be skipped.
+      "forbidExtraProps",
+      {
+        "property": "freeze",
+        "object": "Object"
+      },
+      {
+        "property": "myFavoriteWrapper"
+      }
+    ]
+  }
+}

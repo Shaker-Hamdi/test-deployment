@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Pelcro Examples</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <script>
+      var Pelcro = window.Pelcro || (window.Pelcro = {});
+      Pelcro.siteid = "85";
+      // Pelcro.siteid = "660";
+      Pelcro.environment = {};
+      Pelcro.environment.stripe = "pk_test_aThAAdvPHgIdAziZweywBWNk";
+      Pelcro.environment.domain = "https://staging.pelcro.com";
+      Pelcro.environment.ui = "-";
+      window.Pelcro.ENABLE_ECOMMERCE = true;
+      window.Pelcro.uiSettings = {
+        enableNameFieldsInRegister: true,
+        newsletters: [
+          { label: "news 1", id: 12 },
+          { label: "default", id: "default" }
+        ],
+        skipPaymentForFreePlans: true,
+        enableReactGA4: true,
+        enableLoginWithUsername: false
+      };
+    </script>
+    <script src="https://js.pelcro.com/sdk/staging/main.min.js"></script>
+
+    <div></div>
+
+    <div id="pelcro-shop"></div>
+  </body>
+</html>

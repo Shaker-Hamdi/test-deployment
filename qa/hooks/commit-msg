@@ -1,0 +1,46 @@
+#!/usr/bin/env python
+"""
+Git commit hook:
+ .git/hooks/commit-msg
+ Check commit message according to angularjs guidelines:
+  * https://gist.github.com/stephenparish/9941e89d80e2bc58a153
+"""
+
+
+import sys
+import re
+
+commit_file = sys.argv[1]
+help_address = 'https://gist.github.com/stephenparish/9941e89d80e2bc58a153'
+
+with open(commit_file) as commit:
+    lines = commit.readlines()
+    if len(lines) == 0:
+        sys.stderr.write("\nEmpty commit messages are not allowed\n")
+        sys.stderr.write("\nCommit message guide: %s\n\n" % help_address)
+        sys.exit(1)
+
+    # first line
+    line = lines[0]
+    m = re.search('^(feat|fix|docs|style|refactor|perf|test|build|ci|test|chore|revert)(\(.+\))?\: (.+)$', line)
+    n = re.search('^(Merge branch).*', line)
+
+    if n:
+        sys.exit(0)
+
+    if not m or len(m.groups()) != 3:
+        sys.stderr.write("\ncommit message header line does not follow format: type(scope): message\n")
+        sys.stderr.write("\nCommit message guide: %s\n\n" % help_address)
+        sys.exit(1)
+
+    if len(lines) > 1 and lines[1].strip():
+        sys.stderr.write("\nSecond commit second message line must be empty\n")
+        sys.stderr.write("\nCommit message guide: %s\n\n" % help_address)
+        sys.exit(1)
+
+    if len(lines) > 2 and not lines[2].strip():
+        sys.stderr.write("\ncommit message body line must not be empty\n")
+        sys.stderr.write("\nCommit message guide: %s\n\n" % help_address)
+        sys.exit(1)
+
+sys.exit(0)
