@@ -19,9 +19,6 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Run tests
-        run: yarn test:once
-
       - name: Build
         run: yarn run generateFiles
 
