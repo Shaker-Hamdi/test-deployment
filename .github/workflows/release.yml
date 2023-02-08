@@ -2,7 +2,7 @@ name: Release package
 
 on:
   push:
-    branches: [beta, master, alpha, 3.x.x, next, next-major]
+    branches: [beta, main, alpha, 3.x.x, next, next-major]
 jobs:
   release:
     name: Release
@@ -28,5 +28,5 @@ jobs:
       - name: Publish
         run: yarn run semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
