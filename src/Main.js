@@ -1,7 +1,6 @@
 import React from "react";
 
 export const Main = () => {
-  console.log("trigger a release");
   return (
     <>
       <h1>Hello World</h1>
