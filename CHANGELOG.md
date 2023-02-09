@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Shaker-Hamdi/test-deployment/compare/v1.0.1...v1.1.0) (2023-02-09)
+
+
+### Features
+
+* a small feature ([abee9e2](https://github.com/Shaker-Hamdi/test-deployment/commit/abee9e2217db573bbd27aeb80248351e79774d9b))
+
 ## [1.0.1](https://github.com/Shaker-Hamdi/test-deployment/compare/v1.0.0...v1.0.1) (2023-02-09)
 
 
