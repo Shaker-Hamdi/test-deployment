@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Shaker-Hamdi/test-deployment/compare/v1.1.0...v1.2.0) (2023-02-09)
+
+
+### Features
+
+* new feature on old version on branch 1.x ([5823671](https://github.com/Shaker-Hamdi/test-deployment/commit/58236714ec3ca1f2a4dd2f03d3a6e80a48e73cdb))
+
 # [1.1.0](https://github.com/Shaker-Hamdi/test-deployment/compare/v1.0.1...v1.1.0) (2023-02-09)
 
 
