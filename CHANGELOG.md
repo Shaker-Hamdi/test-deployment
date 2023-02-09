@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/Shaker-Hamdi/test-deployment/compare/v2.1.1...v2.2.0) (2023-02-09)
+
+
+### Features
+
+* add new branches to the release file ([05ac707](https://github.com/Shaker-Hamdi/test-deployment/commit/05ac70798d303ef75322b75066afaaa678e444fc))
+
 ## [2.1.1](https://github.com/Shaker-Hamdi/test-deployment/compare/v2.1.0...v2.1.1) (2023-02-09)
 
 
