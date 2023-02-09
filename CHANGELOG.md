@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/Shaker-Hamdi/test-deployment/compare/v2.1.0...v2.1.1) (2023-02-09)
+
+
+### Bug Fixes
+
+* remove consoel log ([e8ad963](https://github.com/Shaker-Hamdi/test-deployment/commit/e8ad963e5f5cc6636362ba5267b872e9f7231c7f))
+
 # [2.1.0](https://github.com/Shaker-Hamdi/test-deployment/compare/v2.0.1...v2.1.0) (2023-02-09)
 
 
