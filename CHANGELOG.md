@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Shaker-Hamdi/test-deployment/compare/v1.0.0...v1.0.1) (2023-02-09)
+
+
+### Bug Fixes
+
+* a fix example ([07d0825](https://github.com/Shaker-Hamdi/test-deployment/commit/07d082530c95028977c21f9380859bdb8407e383))
+
 # 1.0.0 (2023-02-08)
 
 
