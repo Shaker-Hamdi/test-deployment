@@ -1,3 +1,16 @@
+# [2.0.0](https://github.com/Shaker-Hamdi/test-deployment/compare/v1.0.1...v2.0.0) (2023-02-09)
+
+
+### Features
+
+* a big feature ([21af529](https://github.com/Shaker-Hamdi/test-deployment/commit/21af529573a5aaef0ea984d854ba1e885a55a693))
+
+
+### BREAKING CHANGES
+
+* it breakes something
+* it breaks something
+
 ## [1.0.1](https://github.com/Shaker-Hamdi/test-deployment/compare/v1.0.0...v1.0.1) (2023-02-09)
 
 
