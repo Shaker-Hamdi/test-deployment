@@ -1,3 +1,11 @@
+# [2.3.0-staging.1](https://github.com/Shaker-Hamdi/test-deployment/compare/v2.2.0...v2.3.0-staging.1) (2023-02-10)
+
+
+### Features
+
+* add staging prerelease branch for testing ([6a99844](https://github.com/Shaker-Hamdi/test-deployment/commit/6a99844a36eab8b8bdc82ad0201a915ebaf01296))
+* new feauture on staging branch ([d273cd3](https://github.com/Shaker-Hamdi/test-deployment/commit/d273cd350fe0555dc52df1dbdc37938fd584983c))
+
 # [2.2.0](https://github.com/Shaker-Hamdi/test-deployment/compare/v2.1.1...v2.2.0) (2023-02-09)
 
 
