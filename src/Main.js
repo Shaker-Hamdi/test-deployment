@@ -8,6 +8,7 @@ export const Main = () => {
       <h3>This is a breaking change on "next" branch</h3>
       <h4>This is a bug fix on @next channel</h4>
       <p>A small feture</p>
+      <h5>This is a release on staging branch</h5>
     </>
   );
 };
